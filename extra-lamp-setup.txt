@@ -1,0 +1,5 @@
+apt-get install php-curl
+apt-get install php-xml
+a2enmod rewrite   #ENABLE URL REWRITE
+
+service apache2 restart
