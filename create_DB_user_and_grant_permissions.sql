@@ -1,0 +1,6 @@
+
+CREATE DATABASE IF NOT EXISTS `my_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+ 
+CREATE USER my_user@localhost IDENTIFIED BY 'PsSsWoRd';
+
+GRANT ALL PRIVILEGES ON my_db.* TO my_user@localhost WITH GRANT OPTION;
