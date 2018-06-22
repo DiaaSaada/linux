@@ -1,0 +1,9 @@
+cp /etc/apache2/sites-available/000-default.conf  /etc/apache2/sites-available/mysirte.net.conf
+
+vim /etc/apache2/sites-available/mysirte.net.conf
+
+
+a2ensite mysirte.net.conf                 #Enabling site swaidakhabar.net.
+
+
+systemctl reload apache2
